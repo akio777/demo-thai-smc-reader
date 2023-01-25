@@ -1,0 +1,30 @@
+.personal-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% of the viewport height */
+}
+
+.personal-card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.personal-card-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.personal-card-occupation {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.personal-card-email,
+.personal-card-phone {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
