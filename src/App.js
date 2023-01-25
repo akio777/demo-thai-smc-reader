@@ -32,7 +32,7 @@ import { convertImage } from './service'
 import './PersonalDataForm.css';
 const fs = require('fs');
 
-const URL = `ws://${process.env.REACT_APP_HOST}:${process.env.REACT_APP_PORT}/ws`
+const URL = `ws://${process.env.REACT_APP_SMC_HOST}:${process.env.REACT_APP_SMC_PORT}/ws`
 
 const defaultSMCData = {
   "cid": "-",
